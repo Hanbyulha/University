@@ -11,7 +11,7 @@
 	<hr>
 	~~ <a href="insert_image.jsp"> 이미지 삽입된 페이지 확인하기 </a> ~~ <br><br>
 	1. JDK 다운로드 사이트 : 
-		<a href="https://www.oracle.com/java/ technologies/javase-downloads">
+		<a href="https://www.oracle.com/java/technologies/javase-downloads">
 			[ 바로 가기 ]
 		</a><br>
 	2. 아파치 톰캣 다운로드 사이트 : 
