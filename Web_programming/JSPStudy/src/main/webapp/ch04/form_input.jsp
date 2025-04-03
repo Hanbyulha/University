@@ -17,13 +17,13 @@
 		<input type="text" name="e_code" size="10"><br><br>
 		
 		성별 : 
-		<input type="radio" name="gender">남
-		<input type="radio" name="gender">여 <br><br>
+		<input type="radio" name="gender" value="남자">남
+		<input type="radio" name="gender"value="여자" checked>여 <br><br>
 		
-		취미 :
-		<input type="checkbox" name="hobby1">운동
-		<input type="checkbox" name="hobby2">독서			 
-		<input type="checkbox" name="hobby3">음악감상 <br>
+		취미 :<br>
+		<input type="checkbox" name="hobby1"value="운동" checked>운동<br>
+		<input type="checkbox" name="hobby2"value="독서">독서<br>			 
+		<input type="checkbox" name="hobby3"value="음악감상">음악감상 <br>
 		<hr> &nbsp;
 		
 		<input type="submit" value=" 가입하기 "> &nbsp;&nbsp;
