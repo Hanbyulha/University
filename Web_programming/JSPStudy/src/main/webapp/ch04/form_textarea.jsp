@@ -12,8 +12,7 @@
 	<form action="#" method="get">
 		<fieldset style="width:200px">
 			<legend> 자유게시판 </legend><p>
-				<textarea class="message_area" cols="30" rows="3">
-				</textarea>
+				<textarea class="message_area" cols="30" rows="3"></textarea>
 			<div align="center">				
 				<input type="submit" value=" 전송 "> &nbsp;
 				<input type="reset" value=" 취소 ">
