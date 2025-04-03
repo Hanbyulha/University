@@ -12,10 +12,12 @@
 	<form action="#" method="get">
 		ID : <br> 
 			<input type="text" name="id"><br><br>
+		NAME : <br>
+			<input type="text" name="sName"><br><br>
 		PASSWORD : <br>
 		<input type="password" name="passwd"><br><br>
-		&nbsp; <input type="submit" value=" Login "> &nbsp;
-		<input type="reset" value=" Cancel ">
+		&nbsp; <input type="submit" value=" 보내기 "> &nbsp;&nbsp;
+		<input type="reset" value=" 다시 작성 ">
 	</form>
 </body>
 </html>
