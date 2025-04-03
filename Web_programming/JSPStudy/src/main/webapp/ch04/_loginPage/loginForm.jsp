@@ -12,6 +12,8 @@
 	<form action="login_process.jsp" method="get">
 		ID : <br> 
 			<input type="text" name="id"><br><br>
+		NAME : <br>
+			<input type="text" name="sName"><br><br>
 		PASSWORD : <br>
 		<input type="password" name="passwd"><br><br>
 		&nbsp; <input type="submit" value=" Login "> &nbsp;
