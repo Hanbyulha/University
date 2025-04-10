@@ -15,9 +15,7 @@ request.setCharacterEncoding("utf-8");
 String p_name = request.getParameter("p_name");
 String e_code = request.getParameter("e_code");
 String gender = request.getParameter("gender");
-String hobby1 = request.getParameter("hobby1");
-String hobby2 = request.getParameter("hobby2");
-String hobby3 = request.getParameter("hobby3");
+String[] hob = request.getParameterValues("hobby");
 
 %>
 
@@ -30,7 +28,19 @@ String hobby3 = request.getParameter("hobby3");
 		<tr align=center>
 				<td><%=p_name + "(" + gender +")" %></td>
 				<td><%=e_code %></td>
-				<td><%=hobby1 + "&nbsp;" + hobby2 + "&nbsp;" + hobby3 %></td>	
+				<td><%if(hob != null)
+				{
+					for(int count = 0; count < hob.length; count++)
+					{
+						out.println(hob[count]);
+						if(count+1 < hob.length){
+							out.println(",&nbsp;");
+						}
+					}
+				}
+				else{
+					out.println("없음");
+				}%></td>	
 		</tr>
 	</table>	
 
