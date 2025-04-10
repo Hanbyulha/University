@@ -21,9 +21,9 @@
 		<input type="radio" name="gender" value="여">여 <br><br>
 		
 		취미 :
-		<input type="checkbox" name="hobby1" value="운동">운동
-		<input type="checkbox" name="hobby2" value="독서">독서			 
-		<input type="checkbox" name="hobby3" value="음악감상">음악감상 <br>
+		<input type="checkbox" name="hobby" value="운동">운동
+		<input type="checkbox" name="hobby" value="독서">독서			 
+		<input type="checkbox" name="hobby" value="음악감상">음악감상 <br>
 		<hr> &nbsp;
 		
 		<input type="submit" value=" 가입하기 "> &nbsp;&nbsp;
