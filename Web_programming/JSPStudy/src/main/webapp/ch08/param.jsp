@@ -12,10 +12,10 @@
 		Date nowTime = new Date();
 	%>
 	<jsp:forward page="param_process.jsp">
-		<jsp:param name="date" 
-			value="<%= nowTime.toLocaleString() %>" />
 		<jsp:param name="sid" 
 			value="<%= id %>" />
+		<jsp:param name="date" 
+			value="<%= nowTime.toLocaleString() %>" />
 	</jsp:forward>	
 </body>
 </html>
