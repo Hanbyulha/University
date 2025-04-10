@@ -11,5 +11,6 @@
 	<hr>
 	현재 날짜와 시각 : 
 	<%= request.getParameter("date") %>
+	<br><%= request.getParameter("sid") %>
 </body>
 </html>
