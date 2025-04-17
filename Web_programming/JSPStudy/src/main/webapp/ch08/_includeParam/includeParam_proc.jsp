@@ -3,6 +3,7 @@
 <%
 	request.setCharacterEncoding("UTF-8");
 	String siteName = request.getParameter("siteName");
+	String siteURL = "www.sdu.ac.kr";
 %>
 <html>
 <body>
@@ -14,5 +15,7 @@ html 문서에서 전달된 siteName은
 <jsp:include page="includeTagBottom.jsp">
 	<jsp:param name="siteName" value="www.sdu.ac.kr" />
 </jsp:include>
+<br>
+<font color = "blue"><%=siteName %></font>
 </body>
 </html>
