@@ -2,9 +2,7 @@
     pageEncoding="UTF-8"%>
 
 <jsp:useBean id="calc" class="ch08.Calculator" />
-<jsp:setProperty property="n1" name="calc"/>
-<jsp:setProperty property="op" name="calc"/>
-<jsp:setProperty property="n2" name="calc"/>
+<jsp:setProperty property="*" name="calc"/>
 
 <!DOCTYPE html>
 <html>
@@ -16,9 +14,7 @@
 
 <h2>>> 계산 결과</h2>
 <hr>
-<jsp:getProperty property="n1" name="calc"/>
-<jsp:getProperty property="op" name="calc"/>
-<jsp:getProperty property="n2" name="calc"/>
+<%= calc.getN1()+ calc.getOp() + calc.getN2()+"=" + calc.calc() %>
  = <%=calc.calc() %>
 </body>
 </html>
